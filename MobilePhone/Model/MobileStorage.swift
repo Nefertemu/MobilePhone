@@ -66,7 +66,7 @@ extension Mobile: MobileStorage {
     }
     
     func delete(_ product: Mobile) throws {
-        if DataStore.shared.models.contains(product.model) {
+        if DataStore.shared.models.contains(product.model) && DataStore.shared.models.contains(product.imei)  {
             DataStore.shared.models.filter { $0 != product.model }
             DataStore.shared.imeis.filter { $0 != product.imei }
         }

@@ -58,16 +58,56 @@
 		4312FBCF28C20E9B00AACE67 /* MobilePhone */ = {
 			isa = PBXGroup;
 			children = (
-				4312FBD028C20E9B00AACE67 /* AppDelegate.swift */,
-				4312FBD228C20E9B00AACE67 /* SceneDelegate.swift */,
-				4312FBE428C20EE200AACE67 /* MobileStorage.swift */,
-				4312FBE628C2109800AACE67 /* DataStore.swift */,
-				4312FBD628C20E9B00AACE67 /* Main.storyboard */,
-				4312FBD928C20E9D00AACE67 /* Assets.xcassets */,
-				4312FBDB28C20E9D00AACE67 /* LaunchScreen.storyboard */,
-				4312FBDE28C20E9D00AACE67 /* Info.plist */,
+				4312FBE828C21F9800AACE67 /* Model */,
+				4312FBE928C21F9D00AACE67 /* View */,
+				4312FBEA28C21FA100AACE67 /* Controller */,
+				4312FBEB28C21FA600AACE67 /* App */,
+				4312FBEC28C21FBD00AACE67 /* Resources */,
 			);
 			path = MobilePhone;
+			sourceTree = "<group>";
+		};
+		4312FBE828C21F9800AACE67 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4312FBE428C20EE200AACE67 /* MobileStorage.swift */,
+				4312FBE628C2109800AACE67 /* DataStore.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4312FBE928C21F9D00AACE67 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4312FBD628C20E9B00AACE67 /* Main.storyboard */,
+				4312FBDB28C20E9D00AACE67 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4312FBEA28C21FA100AACE67 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4312FBEB28C21FA600AACE67 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				4312FBD028C20E9B00AACE67 /* AppDelegate.swift */,
+				4312FBD228C20E9B00AACE67 /* SceneDelegate.swift */,
+				4312FBDE28C20E9D00AACE67 /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		4312FBEC28C21FBD00AACE67 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4312FBD928C20E9D00AACE67 /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -293,7 +333,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Q95U4J4JFY;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MobilePhone/Info.plist;
+				INFOPLIST_FILE = MobilePhone/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -321,7 +361,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Q95U4J4JFY;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MobilePhone/Info.plist;
+				INFOPLIST_FILE = MobilePhone/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
